@@ -2,31 +2,8 @@
    THEME VARIABLES
    =================================== */
 
-/* Dark Theme (Default) */
+/* Light Theme (Default) */
 :root,
-[data-theme="dark"] {
-    --bg-main: #0B0A10;
-    --bg-glass: rgba(22, 21, 31, 0.65);
-    --border-glass: rgba(255, 255, 255, 0.08);
-    --text-main: #f8fafc;
-    --text-muted: #94a3b8;
-    --text-strong: #ffffff;
-    --accent-1: #8b5cf6;
-    --accent-2: #3b82f6;
-    --accent-3: #ec4899;
-    --navbar-bg: rgba(11, 10, 16, 0.8);
-    --card-hover-shadow: rgba(0, 0, 0, 0.4);
-    --card-border-top: rgba(255, 255, 255, 0.15);
-    --card-border-left: rgba(255, 255, 255, 0.05);
-    --blob-opacity: 0.5;
-    --title-gradient-start: #fff;
-    --title-gradient-end: #94a3b8;
-    --font-heading: 'Outfit', sans-serif;
-    --font-body: 'Inter', sans-serif;
-    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* Light Theme */
 [data-theme="light"] {
     --bg-main: #f0f2f5;
     --bg-glass: rgba(255, 255, 255, 0.7);
@@ -44,6 +21,29 @@
     --blob-opacity: 0.25;
     --title-gradient-start: #1e293b;
     --title-gradient-end: #64748b;
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+    --bg-main: #0B0A10;
+    --bg-glass: rgba(22, 21, 31, 0.65);
+    --border-glass: rgba(255, 255, 255, 0.08);
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --text-strong: #ffffff;
+    --accent-1: #8b5cf6;
+    --accent-2: #3b82f6;
+    --accent-3: #ec4899;
+    --navbar-bg: rgba(11, 10, 16, 0.8);
+    --card-hover-shadow: rgba(0, 0, 0, 0.4);
+    --card-border-top: rgba(255, 255, 255, 0.15);
+    --card-border-left: rgba(255, 255, 255, 0.05);
+    --blob-opacity: 0.5;
+    --title-gradient-start: #fff;
+    --title-gradient-end: #94a3b8;
 }
 
 /* ===================================
